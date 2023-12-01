@@ -6,7 +6,7 @@
 
 ### Send bug report
 
-Reports can only be send by `staff` or `management` group members.
+Reports can only be send by authorized users.
 
 ```api
 POST /directus-webhook/report
