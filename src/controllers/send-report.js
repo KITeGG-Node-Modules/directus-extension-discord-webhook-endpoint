@@ -35,7 +35,7 @@ async function sendReport(payload) {
 			},
 			body: JSON.stringify({
 				content: `**${req.body.email}**
-using ${req.body.platform.name} ${req.body.platform.version} on ${req.body.platform.os}
+using ${req.body.system.browser} ${req.body.system.version} on ${req.body.system.os}
 **has the issue:**
 ${issue}
 **on the page:**

@@ -18,8 +18,8 @@ Body (mandatory fields):
 {
 	"issue": "This is the issue",
 	"email": "admin@llp.kitegg.de",
-	"platform": {
-		"name": "Chrome",
+	"system": {
+		"browser": "Chrome",
 		"version": "119.0.0.0",
 		"os": "Mac OS"
 	},
