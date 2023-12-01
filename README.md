@@ -9,7 +9,7 @@
 Reports can only be send by authorized users.
 
 ```api
-POST /directus-webhook/report
+POST /discord-webhook/report
 ```
 
 Body (mandatory fields):
